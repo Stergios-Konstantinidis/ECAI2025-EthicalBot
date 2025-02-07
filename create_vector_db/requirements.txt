@@ -1,0 +1,9 @@
+google-generativeai
+langchain
+langchain-chroma
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-experimental
+langchain-text-splitters
+langchain-experimental

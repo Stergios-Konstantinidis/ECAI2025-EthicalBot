@@ -1,0 +1,23 @@
+# Utiliser une image de base officielle de Python
+FROM python:3.10-slim
+
+# Définir le répertoire de travail dans le conteneur
+WORKDIR /frontend
+
+# Copier le fichier requirements.txt dans le conteneur
+COPY requirements.txt .
+
+# Installer les dépendances nécessaires
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copier le reste du code de l'application dans le conteneur
+COPY . ./
+
+# Expose the port that Streamlit runs on
+EXPOSE 8501
+
+# Set the environment variable PORT
+ENV PORT=8080
+
+# Start the Streamlit app
+CMD ["streamlit", "run", "--server.port", "8080", "dashboard.py"]

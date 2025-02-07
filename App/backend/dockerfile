@@ -1,0 +1,16 @@
+# Stage 1: Build environment with dependencies
+FROM python:3.10-slim
+
+WORKDIR /backend
+
+# Copy requirements.txt
+COPY requirements.txt .
+
+# Install dependencies
+RUN pip install -r requirements.txt
+
+# Copy backend code
+COPY . ./
+
+# Set the entrypoint to run your app
+ENTRYPOINT ["python", "app.py"]

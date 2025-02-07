@@ -1,0 +1,12 @@
+langchain
+langchain-chroma
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-openai
+pydantic
+google-generativeai
+trulens
+openai
+rouge_score
+erag

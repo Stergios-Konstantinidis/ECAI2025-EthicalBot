@@ -1,0 +1,11 @@
+google-generativeai==0.7.2
+langchain==0.3.3
+langchain-core==0.3.10
+langchain-chroma==0.1.4
+langchain-google-genai==2.0.0
+python-dotenv==1.0.1
+chromadb==0.5.7
+Flask
+requests
+openai==1.55.3
+langchain-openai==0.2.2
