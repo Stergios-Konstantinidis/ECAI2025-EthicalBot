@@ -85,6 +85,7 @@ To replicate the evaluation, follow these steps:
    - Note: It is only possible to run one evaluation at a time with this file.
 
 4. **Query Simplification**:
+
    To observe how the query simplification process iteratively modifies user queries, use the `query_simplification.py` file.
 
 ---
