@@ -31,7 +31,7 @@ The repository contains the following folders:
 ### Requirements
 
 - Install the required Python libraries listed in the `requirements.txt` files.
-- Fill the `.env` file (in the root folder) with your OpenAI and Gemini API keys.
+- Fill the `.env` file (located either in the root folder or the backend folder, depending on how you run `app.py`) with your OpenAI and Gemini API keys.
 
 ### Steps
 
