@@ -4,7 +4,7 @@ This repository contains the code and implementation details for the research pa
 
 *This study centers on a knowledge base derived from theological works, particularly the writings of St. John Chrysostom from the Nicene and Post-Nicene Fathers.*
 
-### You can access the chatbot [here](https://ethicalbot-901897769004.europe-west6.run.app/).
+
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/222a6a75-b067-4df9-839c-d6166dba028b" alt="Image 1">
