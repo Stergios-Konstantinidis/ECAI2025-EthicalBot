@@ -1,6 +1,6 @@
-# IJCAI2025-The Ethical Bot: Combining Retrieval-Augmented Generation Techniques with Theological Texts for Answering Ethical and Existential Questions
+# ECAI2025-The Ethical Bot: Combining Retrieval-Augmented Generation Techniques with Theological Texts for Answering Ethical and Existential Questions
 
-This repository contains the code and implementation details for the research paper titled *'The Ethical Bot: Combining Retrieval-Augmented Generation Techniques with Theological Texts for Answering Ethical and Existential Questions.'* The project explores the optimization of Retrieval-Augmented Generation (RAG) pipelines to improve user understanding of complex texts. It features a chatbot application designed to answer user questions, alongside the models, evaluation frameworks, and techniques discussed in the research. Detailed documentation is included to support replication and further exploration.
+This repository contains the code and implementation details for the demo paper titled *'The Ethical Bot: Combining Retrieval-Augmented Generation Techniques with Theological Texts for Answering Ethical and Existential Questions.'* The project explores the optimization of Retrieval-Augmented Generation (RAG) pipelines to improve user understanding of complex texts. It features a chatbot application designed to answer user questions, alongside the models, evaluation frameworks, and techniques discussed in the research. Detailed documentation is included to support replication and further exploration.
 
 *This study centers on a knowledge base derived from theological works, particularly the writings of St. John Chrysostom from the Nicene and Post-Nicene Fathers.*
 
