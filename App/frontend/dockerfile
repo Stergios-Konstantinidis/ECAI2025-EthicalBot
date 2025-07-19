@@ -20,4 +20,4 @@ EXPOSE 8501
 ENV PORT=8080
 
 # Start the Streamlit app
-CMD ["streamlit", "run", "--server.port", "8080", "dashboard.py"]
+CMD ["streamlit", "run", "app.py", "--server.port", "8080"]
