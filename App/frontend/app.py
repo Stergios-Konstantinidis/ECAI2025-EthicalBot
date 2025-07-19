@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Set the URL of the Flask backend
-FLASK_BACKEND_URL = "http://localhost:8080/generate" 
+FLASK_BACKEND_URL = "https://echicalbot-68877559948.europe-west1.run.app/generate" 
 
 
 def query_streaming_chatbot(query_text, history):

@@ -9,6 +9,9 @@ import re
 from langchain_openai import ChatOpenAI
 import openai
 from langchain_core.prompts import MessagesPlaceholder
+from langchain_core.caches import BaseCache
+from langchain.callbacks.base import Callbacks
+ChatOpenAI.model_rebuild()
  
 
 
@@ -107,8 +110,9 @@ def generate_response():
 
     # Search the database using the new question
     try:
-        results = db.similarity_search_with_relevance_scores(standalone_question, k=3) # Naive RAG
-    
+
+        results = db.similarity_search_with_relevance_scores(str(standalone_question).split(""" additional_kwargs""")[0].replace('"', "").replace("'", "").replace("content=", ""), k=3) # Naive RAG
+
     except Exception as e:
         return jsonify({"error": f"Error searching Chroma DB: {e}"}), 500
 
@@ -151,7 +155,7 @@ def generate_response():
             
         except Exception as e:
             yield f"data: Error generating response: {str(e)}\n\n"
-    
+
     # Return a stream of chunks
     return Response(generate_chunks(), content_type="text/event-stream")
 
